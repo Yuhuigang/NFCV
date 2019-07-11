@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/tv_child"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:text="child"
+        android:textSize="@dimen/font_button_size"
+        android:paddingBottom="@dimen/button_paddingButtom"
+        android:paddingRight="@dimen/button_paddingRight"
+        android:gravity="right|bottom"/>
+</LinearLayout>
